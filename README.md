@@ -18,4 +18,4 @@ The application will be avaible on PORT 5173 by default.
 
 ## Test the application on your Browser
 
-Navigate to the browser SQS status address to check the queue of emails sent: http://localhost:5173
+Navigate to the browser and test on: http://localhost:5173
