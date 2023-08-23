@@ -13,7 +13,7 @@ COPY package*.json ./
 COPY yarn.lock ./
 
 # Install app dependencies
-RUN yarn install
+RUN npm install
 # If you are using Yarn, use the following line instead
 # RUN yarn
 
@@ -24,4 +24,4 @@ COPY . .
 EXPOSE 3000
 
 # Command to run the app
-CMD ["yarn", "run", "dev"]
+CMD ["npm", "run", "dev"]

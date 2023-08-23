@@ -38,15 +38,6 @@ node_modules/
 .idea/
 build/
 dist/
-jspm_packages/
-!/tools
-!/tools/**/*.js
-**/*.js.map
-**/*.js
-**/*.d.ts
-!cli.js
-!jest.config.js
-!nyc.config.js
 
 # Typescript v1 declaration files
 typings/
